@@ -10,7 +10,7 @@ class Container:
         self.store = []
 
     def write_in_file(self, output):
-        output.write("Container is store {} figures:\n".format(len(self.store)))
+        output.write("Container contains {} figures:\n".format(len(self.store)))
         for figure in self.store:
             figure.write_figure_in_file(output)
         output.write("Average surface area = {}\n".format(self.average_surface_area()))

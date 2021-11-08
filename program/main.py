@@ -3,7 +3,7 @@ from container import Container
 
 if __name__ == '__main__':
     if len(sys.argv) != 5:
-        print("Incorrect command line!\nYou must write: "
+        print("Incorrect command line.\nPlease write: "
               "[python main] -f <input_file_name> <output_file_name> <output_sorted_file_name>\n"
               "Or: [python main] -n <number_of_figures> <output_file_name> <output_sorted_file_name>")
         exit()
@@ -21,9 +21,9 @@ if __name__ == '__main__':
             exit()
         container.random_input(number_of_figures)
     else:
-        print("Incorrect command line!\nYou must write: "
-              "[python main] -f <inputFileName> <outputFileName> <outputSortedFileName>\n"
-              "Or: [python main] -n <numberOfFigures> <outputFileName> <outputSortedFileName>")
+        print("Incorrect command line.\nPlease write: "
+              "[python main] -f <input_file_name> <output_file_name> <output_sorted_file_name>\n"
+              "Or: [python main] -n <number_of_figures> <output_file_name> <output_sorted_file_name>")
         exit()
 
     output_file = open(sys.argv[3], 'w')
