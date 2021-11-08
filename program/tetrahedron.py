@@ -11,7 +11,7 @@ class Tetrahedron(Figure):
         self.edge_length = 0
 
     def get_figure(self, data, i):
-        self.density = data[i]
+        self.density = float(data[i])
         self.edge_length = data[i + 1]
 
     def get_random_figure(self):

@@ -12,7 +12,7 @@ class Parallelepiped(Figure):
         self.third_edge = 0
 
     def get_figure(self, data, i):
-        self.density = data[i]
+        self.density = float(data[i])
         self.first_edge = data[i + 1]
         self.second_edge = data[i + 2]
         self.third_edge = data[i + 3]

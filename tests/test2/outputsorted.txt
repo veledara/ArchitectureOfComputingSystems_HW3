@@ -1,4 +1,4 @@
-Container is store 5 figures:
+Container contains 5 figures:
 Parallelepiped: density = 0, first edge length = 0, second edge length = 0, third edge length = 0, surface area = 0.0
 Tetrahedron: density = 8, edge length = 0, surface area = 0.0
 Ball: density = 2, radius = 0, surface area = 0.0

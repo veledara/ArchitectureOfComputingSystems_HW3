@@ -28,6 +28,8 @@ if __name__ == '__main__':
 
     output_file = open(sys.argv[3], 'w')
     container.write_in_file(output_file)
+    output_file.close()
     output_sorted_file = open(sys.argv[4], 'w')
     container.sort()
     container.write_in_file(output_sorted_file)
+    output_sorted_file.close()

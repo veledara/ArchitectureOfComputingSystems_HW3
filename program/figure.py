@@ -2,7 +2,7 @@
 
 class Figure:
     def __init__(self):
-        self.density = 0
+        self.density = 0.0
 
     def get_figure(self, data, i):
         pass

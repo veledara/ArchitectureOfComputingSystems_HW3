@@ -11,7 +11,7 @@ class Ball(Figure):
         self.radius = 0
 
     def get_figure(self, data, i):
-        self.density = data[i]
+        self.density = float(data[i])
         self.radius = data[i+1]
 
     def get_random_figure(self):
