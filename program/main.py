@@ -4,8 +4,8 @@ from container import Container
 if __name__ == '__main__':
     if len(sys.argv) != 5:
         print("Incorrect command line!\nYou must write: "
-              "[python main] -f <inputFileName> <outputFileName> <outputSortedFileName>\n"
-              "Or: [python main] -n <numberOfFigures> <outputFileName> <outputSortedFileName>")
+              "[python main] -f <input_file_name> <output_file_name> <output_sorted_file_name>\n"
+              "Or: [python main] -n <number_of_figures> <output_file_name> <output_sorted_file_name>")
         exit()
     container = Container()
     if sys.argv[1] == "-f":

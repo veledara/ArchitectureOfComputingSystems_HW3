@@ -1,0 +1,52 @@
+Container is store 50 figures:
+Ball: density = 3, radius = 5, surface area = 314.1592653589793
+Tetrahedron: density = 36, edge length = 8, surface area = 110.85125168440814
+Tetrahedron: density = 36, edge length = 8, surface area = 110.85125168440814
+Ball: density = 48, radius = 4, surface area = 201.06192982974676
+Tetrahedron: density = 48, edge length = 10, surface area = 173.2050807568877
+Ball: density = 70, radius = 9, surface area = 1017.8760197630929
+Tetrahedron: density = 88, edge length = 19, surface area = 625.2703415323647
+Ball: density = 72, radius = 6, surface area = 452.3893421169302
+Ball: density = 43, radius = 9, surface area = 1017.8760197630929
+Parallelepiped: density = 68, first edge length = 82, second edge length = 73, third edge length = 96, surface area = 502.0
+Tetrahedron: density = 64, edge length = 19, surface area = 625.2703415323647
+Parallelepiped: density = 27, first edge length = 59, second edge length = 65, third edge length = 12, surface area = 272.0
+Ball: density = 78, radius = 6, surface area = 452.3893421169302
+Ball: density = 27, radius = 11, surface area = 1520.5308443374597
+Parallelepiped: density = 81, first edge length = 84, second edge length = 8, third edge length = 23, surface area = 230.0
+Parallelepiped: density = 73, first edge length = 12, second edge length = 86, third edge length = 51, surface area = 298.0
+Ball: density = 26, radius = 4, surface area = 201.06192982974676
+Parallelepiped: density = 88, first edge length = 75, second edge length = 89, third edge length = 46, surface area = 420.0
+Tetrahedron: density = 78, edge length = 2, surface area = 6.928203230275509
+Parallelepiped: density = 89, first edge length = 84, second edge length = 62, third edge length = 7, surface area = 306.0
+Ball: density = 16, radius = 10, surface area = 1256.6370614359173
+Tetrahedron: density = 12, edge length = 6, surface area = 62.353829072479584
+Parallelepiped: density = 1, first edge length = 31, second edge length = 28, third edge length = 68, surface area = 254.0
+Ball: density = 50, radius = 14, surface area = 2463.0086404143976
+Ball: density = 64, radius = 8, surface area = 804.247719318987
+Parallelepiped: density = 81, first edge length = 69, second edge length = 84, third edge length = 72, surface area = 450.0
+Parallelepiped: density = 53, first edge length = 28, second edge length = 20, third edge length = 97, surface area = 290.0
+Tetrahedron: density = 13, edge length = 14, surface area = 339.4819582834999
+Ball: density = 64, radius = 14, surface area = 2463.0086404143976
+Tetrahedron: density = 9, edge length = 22, surface area = 838.3125908633366
+Parallelepiped: density = 49, first edge length = 75, second edge length = 95, third edge length = 2, surface area = 344.0
+Ball: density = 40, radius = 10, surface area = 1256.6370614359173
+Tetrahedron: density = 30, edge length = 27, surface area = 1262.6650387177115
+Tetrahedron: density = 78, edge length = 1, surface area = 1.7320508075688772
+Tetrahedron: density = 72, edge length = 22, surface area = 838.3125908633366
+Tetrahedron: density = 15, edge length = 18, surface area = 561.1844616523161
+Ball: density = 79, radius = 3, surface area = 113.09733552923255
+Tetrahedron: density = 82, edge length = 25, surface area = 1082.5317547305483
+Tetrahedron: density = 64, edge length = 20, surface area = 692.8203230275508
+Ball: density = 26, radius = 6, surface area = 452.3893421169302
+Parallelepiped: density = 88, first edge length = 6, second edge length = 25, third edge length = 34, surface area = 130.0
+Tetrahedron: density = 24, edge length = 7, surface area = 84.87048957087498
+Tetrahedron: density = 27, edge length = 29, surface area = 1456.6547291654258
+Parallelepiped: density = 9, first edge length = 67, second edge length = 53, third edge length = 87, surface area = 414.0
+Parallelepiped: density = 68, first edge length = 5, second edge length = 95, third edge length = 80, surface area = 360.0
+Tetrahedron: density = 19, edge length = 11, surface area = 209.57814771583415
+Parallelepiped: density = 59, first edge length = 82, second edge length = 68, third edge length = 20, surface area = 340.0
+Tetrahedron: density = 70, edge length = 19, surface area = 625.2703415323647
+Tetrahedron: density = 97, edge length = 29, surface area = 1456.6547291654258
+Tetrahedron: density = 41, edge length = 14, surface area = 339.4819582834999
+Average surface area = 602.013039153085

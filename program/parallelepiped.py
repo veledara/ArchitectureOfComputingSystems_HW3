@@ -1,4 +1,3 @@
-import math
 import random
 
 from figure import Figure
@@ -20,9 +19,9 @@ class Parallelepiped(Figure):
 
     def get_random_figure(self):
         self.density = random.randint(1, 100)
-        self.first_edge = random.randint(1, 31)
-        self.second_edge = random.randint(1, 31)
-        self.third_edge = random.randint(1, 31)
+        self.first_edge = random.randint(1, 100)
+        self.second_edge = random.randint(1, 100)
+        self.third_edge = random.randint(1, 100)
 
     def write_figure_in_file(self, output):
         output.write("Parallelepiped: density = {},"
@@ -33,4 +32,4 @@ class Parallelepiped(Figure):
                      .format(self.density, self.first_edge, self.second_edge, self.third_edge, self.surface_area()))
 
     def surface_area(self):
-        return 2.0 * float(self.first_edge + self.second_edge + self.third_edge)
+        return 2.0 * (float(self.first_edge) + float(self.second_edge) + float(self.third_edge))
