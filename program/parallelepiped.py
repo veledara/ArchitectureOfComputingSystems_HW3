@@ -18,7 +18,7 @@ class Parallelepiped(Figure):
         self.third_edge = data[i + 3]
 
     def get_random_figure(self):
-        self.density = random.randint(1, 100)
+        self.density = float(random.randint(1, 100))+random.random()
         self.first_edge = random.randint(1, 100)
         self.second_edge = random.randint(1, 100)
         self.third_edge = random.randint(1, 100)

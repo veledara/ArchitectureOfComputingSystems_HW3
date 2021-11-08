@@ -15,8 +15,8 @@ class Tetrahedron(Figure):
         self.edge_length = data[i + 1]
 
     def get_random_figure(self):
-        self.density = random.randint(1, 100)
-        self.edge_length = random.randint(1, 30)
+        self.density = float(random.randint(1, 100))+random.random()
+        self.edge_length = random.randint(1, 20)
 
     def write_figure_in_file(self, output):
         output.write("Tetrahedron: density = {},"
