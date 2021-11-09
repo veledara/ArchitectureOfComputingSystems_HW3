@@ -16,7 +16,7 @@ class Ball(Figure):
 
     def get_random_figure(self):
         self.density = float(random.randint(1, 100))+random.random()
-        self.radius = random.randint(1, 10)
+        self.radius = random.randint(1, 20)
 
     def write_figure_in_file(self, output):
         output.write("Ball: density = {},"
