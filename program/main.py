@@ -19,7 +19,7 @@ if __name__ == '__main__':
     elif sys.argv[1] == "-n":
         number_of_figures = int(sys.argv[2])
         if number_of_figures < 1 or number_of_figures > 10001:
-            print("Incorrect number of figures. Number must be greater than or equal to 1 and less than 1001")
+            print("Incorrect number of figures. Number must be greater than or equal to 1 and less than 10001")
             exit()
         container.random_input(number_of_figures)
     else:
